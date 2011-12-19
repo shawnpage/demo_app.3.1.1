@@ -1,5 +1,6 @@
 source 'http://rubygems.org'
 
+
 gem 'rails', '3.1.1'
 
 # Bundle edge Rails instead:
@@ -36,4 +37,9 @@ gem 'jquery-rails'
 group :test do
   # Pretty printed test output
   gem 'turn', :require => false
+end
+
+
+group :production do
+  gem "pg"
 end
